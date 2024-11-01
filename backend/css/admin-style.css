@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------
+# TP WhatsApp Chat Lite - Admin View
+# ------------------------------------------------------------------------
+# author    Trendy Plugins trendyplugins.com
+# Copyright (C) 2021 Trendy Plugins. All Rights Reserved.
+# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+# Websites: https://trendyplugins.com
+-------------------------------------------------------------------------*/
+
+.wrap {
+	margin: 10px 20px 0 2px;
+}
+
+.postbox {
+	position: relative;
+	min-width: 255px;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	background: #fff;
+	width: 65%;
+	margin-top: 20px;
+}
+
+.postbox .inside {
+	padding: 0 12px 12px;
+	line-height: 1.4;
+	font-size: 13px;
+}

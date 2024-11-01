@@ -1,0 +1,241 @@
+/*------------------------------------------------------------------------
+# TP WhatsApp Chat Lite
+# ------------------------------------------------------------------------
+# author    Trendy Plugins trendyplugins.com
+# Copyright (C) 2021 Trendy Plugins. All Rights Reserved.
+# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+# Websites: https://trendyplugins.com
+-------------------------------------------------------------------------*/
+
+.aa_whatsapp_button i {
+    font-size: 35px !important;
+    line-height: 59px;
+    margin-right: 0px;
+}
+
+
+.aa_whatsapp_button{
+    border-radius: 50px!important;
+    text-align: center!important;
+    padding: 0px!important;
+    outline:none!important;
+    text-decoration: none!important;
+    border:none!important;
+    box-shadow: none!important;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    margin:0px!important;
+    line-height: normal!important;
+    opacity: 0.9;
+    z-index: 99998!important;
+    cursor: pointer;
+}
+
+.aa_whatsapp_button:hover{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+    opacity: 1;
+}
+
+.aa_whatsapp_button:focus{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+}
+
+.aa_whatsapp_button:link{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+}
+
+/**** Rectangular Button ****/
+
+.aa_whatsapp_rectangular_button i{
+    top: 1px;
+    position: relative;
+}
+
+.aa_whatsapp_rectangular_button {
+    padding: 5px 11px 5px 11px !important;
+    outline: none !important;
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    border-radius: 5px !important;
+    position: relative !important;
+    line-height: normal !important;
+    opacity: 0.9;
+    position: fixed !important;
+    font-family: Arial, sans-serif;
+    z-index: 99999999 !important;
+    cursor: pointer;
+}
+
+.aa_whatsapp_rectangular_button:hover {
+    text-decoration: none !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    opacity: 1;
+}
+
+
+/*------------------------------------------------------------------------
+# Modern Layout - Style 1
+-------------------------------------------------------------------------*/
+
+span.aa_whatsapp_style1 {
+    border: 2px solid #fff;
+    background: -webkit-linear-gradient(to right, #26C281, #09e072);
+    background: -moz-linear-gradient(to right, #26C281, #09e072);
+    background: -ms-linear-gradient(to right, #26C281, #09e072);
+    background: -o-linear-gradient(to right, #26C281, #09e072);
+    background: linear-gradient(to right, #26C281, #09e072);
+}
+
+span.aa_whatsapp_style1 {
+    display: flex;
+    position: fixed;
+    padding: 5px 15px;
+    outline: 0;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0px 2px #6c6b6b;
+}
+
+
+span.aa_whatsapp_style1 i {
+    padding: 3px;
+    font-size: 20px;
+}
+
+
+span.aa_whatsapp_style1 span {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+span.aa_whatsapp_style1:hover {
+    box-shadow: 0 0px 10px #6c6b6b;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/*------------------------------------------------------------------------
+# Modern Circular Layout - Style 2
+-------------------------------------------------------------------------*/
+
+.aa_whatsapp_style2 {
+    position: fixed;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.aa_whatsapp_style2 i {
+    color: #fff;
+    background: -webkit-linear-gradient(to right, #26C281, #09e072);
+    background: -moz-linear-gradient(to right, #26C281, #09e072);
+    background: -ms-linear-gradient(to right, #26C281, #09e072);
+    background: -o-linear-gradient(to right, #26C281, #09e072);
+    background: linear-gradient(to right, #26C281, #09e072);
+}
+
+.aa_whatsapp_style2 i {
+    border: 2px solid #fff;
+}
+
+.aa_whatsapp_style2 i {
+    position: relative;
+    padding: 13px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.8;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #222;
+}
+
+.aa_whatsapp_style2:hover i {
+    box-shadow: 0 0 10px #222;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/*------------------------------------------------------------------------
+# Modern Circular Layout2 - Style 3
+-------------------------------------------------------------------------*/
+
+.aa_whatsapp_style3 {
+    position: fixed;
+    bottom: 2.5em;
+    right: 2.5em;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.aa_whatsapp_style3 i.socicon-whatsapp{
+    position: relative;
+    padding: 13px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.8;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.aa_whatsapp_style3 i.socicon-whatsapp  {
+    color: #fff;
+    border: 2px solid #fff;
+    background: -webkit-linear-gradient(to right, #26C281, #09e072);
+    background: -moz-linear-gradient(to right, #26C281, #09e072);
+    background: -ms-linear-gradient(to right, #26C281, #09e072);
+    background: -o-linear-gradient(to right, #26C281, #09e072);
+    background: linear-gradient(to right, #26C281, #09e072);
+}
+
+
+.aa_whatsapp_style3 i.socicon-whatsapp, .aa_whatsapp_style3 i.socicon-whatsapp:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.aa_whatsapp_style3 i.socicon-whatsapp:hover {
+    -webkit-transform: rotate(270deg);
+    -moz-transition: rotate(270deg);
+    -ms-transition: rotate(270deg);
+    -o-transition: rotate(270deg);
+    transform: rotate(270deg);
+    box-shadow: 0 0 1px 15px rgba(64, 62, 62, 0.14), 0 0 1px 30px rgba(138, 59, 88, 0.1), 0 0 1px 45px rgba(138, 59, 88, 0.1);
+}
+
+
